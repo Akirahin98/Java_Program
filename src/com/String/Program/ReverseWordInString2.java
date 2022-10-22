@@ -2,12 +2,13 @@ package com.String.Program;
 
 public class ReverseWordInString2 {
 	/* Date:11/10/2022
+	 * Output: reven ever give pu (Reverse only 1st and last index word)
 	 */
 	public static void main(String[] args) {
 		reverse2();
 	}
 	public static void reverse2() {
-		String s="Never ever give up";
+		String s="never ever give up";
 		String [] s1=s.split(" ");
 		String s2="";
 		for (int i = 0; i < s1.length; i++) {

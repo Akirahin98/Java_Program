@@ -2,13 +2,14 @@ package com.String.Program;
 
 public class ReverseWordInString1 {
 	/* Date:11/10/2022
+	 * Output: reven reve evig pu (reverse all word in String)
 	 */
 	public static void main(String[] args) {
 		reverse();
 
 	}
 	public static void reverse() {
-		String s="Never ever give up";
+		String s="never ever give up";
 		String [] s1=s.split(" ");
 		String s2="";
 		for (int i = 0; i < s1.length; i++) {
