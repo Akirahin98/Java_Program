@@ -1,4 +1,4 @@
-package com.Array.Program;
+package com.Arrays.Program;
 
 public class Print_MultiplesOf3 {
 	/* Date:07/10/2022

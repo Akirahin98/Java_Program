@@ -1,4 +1,4 @@
-package com.Array.Program;
+package com.Arrays.Program;
 
 import java.util.Iterator;
 
