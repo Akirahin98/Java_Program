@@ -1,6 +1,6 @@
 package com.Basic.Program;
 
-public class Program1 {
+public class Basic1 {
 	/* Date:07/10/2022
 	 * 1.Area of Circle
 	 * 2.Area of Triangle
