@@ -1,11 +1,11 @@
-package com.mobileprogramming.program;
+package com.InterviewAsked.program;
 
 /*
  * Q.1. From a given array, make n elements rotate without using any built-in function.
  eg. given Array:[21,54,11,35,4,18], index:3; output Array: [4,18,21,54,11,35]
  */
 
-public class Array {
+public class MobileProgramming_Company{
 
 	public static void main(String[] args) {
 		elementsrotate();

@@ -9,7 +9,7 @@ public class FindDuplicateValues_Integer {
 	 * 1. Find Duplicate values from an Integer Array
 	 */
 	public static void main(String[] args) {
-		int[] arr= {1,1,1,2,2,2,3,3,3,4,4,4,8,9};
+		int[] arr= {1,1,2,2,2,3,3,3,4,4,4,8,9};
 		findDuplicate(arr);
 	}
 	public static void findDuplicate(int[] arr) {
@@ -23,9 +23,10 @@ public class FindDuplicateValues_Integer {
 				m.put(arr[i], count);
 			}
 		}
+		System.out.println(m);
 		Set<Map.Entry<Integer,Integer>> sm=m.entrySet();
 		for (Map.Entry<Integer, Integer> entry : sm) {
-			if (entry.getValue()>2) {
+			if (entry.getValue()>1) {
 				System.out.println(entry.getKey());
 			}
 		}
